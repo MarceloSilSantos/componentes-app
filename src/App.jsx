@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+//import './components/compExemplo';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <compExemplo>
+        <h1>Exemplo de componente</h1>
+      </compExemplo>
     </div>
   );
 }
